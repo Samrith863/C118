@@ -1,0 +1,12 @@
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:50px;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes example{
+    from{box-shadow:10px 10px 10px black;}
+    to{box-shadow:10px 10px 10px green;}
+}
